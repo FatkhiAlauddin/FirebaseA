@@ -51,4 +51,3 @@ public class AdapterLihatTeman extends RecyclerView.Adapter<AdapterLihatTeman.Vi
         }
     }
 }
-

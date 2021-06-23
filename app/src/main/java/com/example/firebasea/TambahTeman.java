@@ -41,7 +41,7 @@ public class TambahTeman extends AppCompatActivity {
                     submitTeman(new Teman(nm,tlp));
                 }
                 else
-                    Toast.makeText(TambahTeman.this,"Data tidak boleh kosong",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(TambahTeman.this,"Data Tidak Boleh Kosong",Toast.LENGTH_SHORT).show();
 
             }
         });
@@ -52,7 +52,7 @@ public class TambahTeman extends AppCompatActivity {
             public void onSuccess(Void aVoid) {
                 edNama.setText("");
                 edTelpon.setText("");
-                Toast.makeText(TambahTeman.this, "Data sukses ditambahkan", Toast.LENGTH_SHORT).show();
+                Toast.makeText(TambahTeman.this, "Data Sukses Ditambahkan", Toast.LENGTH_SHORT).show();
             }
         });
     }
