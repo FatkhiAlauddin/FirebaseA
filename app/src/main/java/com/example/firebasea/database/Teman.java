@@ -30,4 +30,13 @@ public class Teman implements Serializable {
     public void setKode(String kode) {
         this.kode = kode;
     }
+
+    @Override
+    public String toString() {
+        return "Teman{" +
+                "nama='"+ nama + '\'' +
+                ", telpon='" + telpon +'\'' +
+                ", kode='" + kode + '\'' +
+                '}';
+    }
 }
